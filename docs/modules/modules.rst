@@ -7,3 +7,4 @@ operation_safe_passage
    environment/modules
    agent/modules
    controller/modules
+   policies/modules
