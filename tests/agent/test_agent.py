@@ -41,7 +41,7 @@ class TestAgent:
         """
         test_agent.step(5, "(0, 0)")
         assert 5 == test_agent.previous_action
-        assert mock_move_agent.called_with("(0, 0)")
+        mock_move_agent.assert_called_with("(0, 0)")
 
     @pytest.mark.parametrize(
         "input",
