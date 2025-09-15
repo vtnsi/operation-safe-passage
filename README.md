@@ -1,8 +1,8 @@
 # Operation Safe Passage
 
-![Coverage](https://vtnsi.github.io/operation_safe_passage/public/coverage.svg)
+![Coverage](https://github.com/vtnsi/operation-safe-passage/blob/gh-pages/coverage.svg)
 
-Read full documentation [here](vtnsi.github.io/operation_safe_passage)
+Read full documentation [here](vtnsi.github.io/operation-safe-passage)
 
 -----
 
