@@ -1,0 +1,66 @@
+{
+  "environment": {
+    "num_nodes": 200,
+    "mine_likelihood": 0.1,
+    "terrain_types": [
+      "Grassy",
+      "Rocky"
+    ],
+    "transition_matrix": [
+      [
+        0.7,
+        0.3
+      ],
+      [
+        0.4,
+        0.6
+      ]
+    ],
+    "precipitation_params": {
+      "Grassy": {
+        "rain_probability": 0.1,
+        "scale": 10
+      },
+      "Rocky": {
+        "rain_probability": 0.05,
+        "scale": 5
+      }
+    },
+    "temp_params": {
+      "Grassy": {
+        "base_temp": 20,
+        "diurnal_variation": 10,
+        "precipitation_effect": 0.1
+      },
+      "Rocky": {
+        "base_temp": 15,
+        "diurnal_variation": 8,
+        "precipitation_effect": 0.1
+      }
+    },
+    "wind_params": {
+      "Grassy": {
+        "base_wind": 10,
+        "time_variation": 5,
+        "precipitation_effect": 0.05
+      },
+      "Rocky": {
+        "base_wind": 15,
+        "time_variation": 4,
+        "precipitation_effect": 0.1
+      }
+    },
+    "visibility_params": {
+      "Grassy": {
+        "max_visibility": 100,
+        "time_effect": 5,
+        "precipitation_effect": 2
+      },
+      "Rocky": {
+        "max_visibility": 100,
+        "time_effect": 6,
+        "precipitation_effect": 2.5
+      }
+    }
+  }
+}

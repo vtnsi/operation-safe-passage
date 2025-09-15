@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "operation_safe_passage"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Michael 'Alex' Kyer", email = "makyer19@vt.edu" },
+  { name = "Sami Saliba", email = "sms8fr@vt.edu" },
+  { name = "Stephen Adams", email = "scadams21@vt.edu" },
+  { name = "Dan Sobien", email = "sdan8@vt.edu" },
+  { name = "Dan DeCollo", email = "ddecollo@vt.edu" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "networkx",
+  "pandas",
+  "stable_baselines3",
+  "gymnasium",
+  "sphinx",
+  "sphinx_rtd_theme",
+  "pytest",
+  "pytest-mock",
+  "coverage",
+  "coverage-badge",
+  "jsonschema"
+]

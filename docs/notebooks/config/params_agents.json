@@ -1,0 +1,34 @@
+{
+  "processing_params": {
+    "UGV_traversal_time": 20,
+    "UGV_clear_time": 60,
+    "UAV_traversal_time": 1
+  },
+  "scanner_params": {
+    "scanners": {
+      "default": {
+        "visibility_scale": 0.55,
+        "visibility_metric": 6,
+        "kappa": 3.0,
+        "noise_scale": 3.0,
+        "noise_std": 0.75,
+        "threshold": 0.5,
+        "time": 1
+      }
+    }
+  },
+  "agents": {
+    "uavs": [
+      {
+        "name": "uav_alpha",
+        "scanners": [
+          "default"
+        ]
+      }
+    ],
+    "num_ugvs": 1
+  },
+  "terrain_coeff": {
+    "Grassy": 1.0
+  }
+}

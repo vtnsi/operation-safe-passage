@@ -1,0 +1,7191 @@
+{
+    "mission": {
+        "start": "(5, 5)",
+        "end": "(9, 9)",
+        "direction_order": {
+            "0": "E",
+            "1": "NE",
+            "2": "NW",
+            "3": "W",
+            "4": "SW",
+            "5": "SE"
+        }
+    },
+    "nodes": [
+        {
+            "id": "(0, 0)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.846887670951281,
+                "wind_speed": 12.426295009643487,
+                "visibility": 89.5372232088812,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 0)",
+                "1": "(0, 1)",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.30440714316582,
+                "wind_speed": 6.370241218173986,
+                "visibility": 91.41418598981335,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 1)",
+                "1": "(0, 2)",
+                "2": null,
+                "3": null,
+                "4": "(0, 0)",
+                "5": "(1, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 2)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.259469653210452,
+                "wind_speed": 10.74902447339065,
+                "visibility": 92.44408235381442,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 2)",
+                "1": "(0, 3)",
+                "2": null,
+                "3": null,
+                "4": "(0, 1)",
+                "5": "(1, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.907714473524923,
+                "wind_speed": 7.714591181099452,
+                "visibility": 89.01893071932237,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 3)",
+                "1": "(0, 4)",
+                "2": null,
+                "3": null,
+                "4": "(0, 2)",
+                "5": "(1, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.04515121874928,
+                "wind_speed": 6.075337838162829,
+                "visibility": 91.54213829005637,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 4)",
+                "1": "(0, 5)",
+                "2": null,
+                "3": null,
+                "4": "(0, 3)",
+                "5": "(1, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 5)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.107044988439998,
+                "wind_speed": 8.20710768856436,
+                "visibility": 93.02068956590979,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 5)",
+                "1": "(0, 6)",
+                "2": null,
+                "3": null,
+                "4": "(0, 4)",
+                "5": "(1, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.362072915986898,
+                "wind_speed": 7.275631793900397,
+                "visibility": 90.54614430000056,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 6)",
+                "1": "(0, 7)",
+                "2": null,
+                "3": null,
+                "4": "(0, 5)",
+                "5": "(1, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 7)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 4.575686553482962,
+                "wind_speed": 12.314389248399328,
+                "visibility": 89.0157111137502,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 7)",
+                "1": "(0, 8)",
+                "2": null,
+                "3": null,
+                "4": "(0, 6)",
+                "5": "(1, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 8)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.023702494827246,
+                "wind_speed": 13.67655541845276,
+                "visibility": 90.26054325976209,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 8)",
+                "1": "(0, 9)",
+                "2": null,
+                "3": null,
+                "4": "(0, 7)",
+                "5": "(1, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(0, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.533450766958977,
+                "wind_speed": 9.173047257898615,
+                "visibility": 79.17730719137118,
+                "precipitation": 6.311028307751847,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 9)",
+                "1": "(0, 10)",
+                "2": null,
+                "3": null,
+                "4": "(0, 8)",
+                "5": "(1, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.116903946640582,
+                "wind_speed": 5.79883409073333,
+                "visibility": 90.49845578364456,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 10)",
+                "1": "(0, 11)",
+                "2": null,
+                "3": null,
+                "4": "(0, 9)",
+                "5": "(1, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.66095543553146,
+                "wind_speed": 10.554689211286268,
+                "visibility": 92.77795556261997,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 11)",
+                "1": "(0, 12)",
+                "2": null,
+                "3": null,
+                "4": "(0, 10)",
+                "5": "(1, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 12)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 4.951415282599204,
+                "wind_speed": 11.987279060477231,
+                "visibility": 89.66440247218699,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 12)",
+                "1": "(0, 13)",
+                "2": null,
+                "3": null,
+                "4": "(0, 11)",
+                "5": "(1, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(0, 13)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.383055008967068,
+                "wind_speed": 14.372190319487547,
+                "visibility": 85.51682426748562,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(1, 13)",
+                "1": null,
+                "2": null,
+                "3": null,
+                "4": "(0, 12)",
+                "5": "(1, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 0)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.481933203517222,
+                "wind_speed": 9.310611758467543,
+                "visibility": 87.32173391716346,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 0)",
+                "1": "(1, 1)",
+                "2": "(0, 1)",
+                "3": "(0, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 1)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.172607738780085,
+                "wind_speed": 15.226312473155474,
+                "visibility": 84.39308758920974,
+                "precipitation": 1.6531587693490448,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 1)",
+                "1": "(1, 2)",
+                "2": "(0, 2)",
+                "3": "(0, 1)",
+                "4": "(1, 0)",
+                "5": "(2, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(1, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.635209129509466,
+                "wind_speed": 13.718000868416386,
+                "visibility": 90.25362767928863,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 2)",
+                "1": "(1, 3)",
+                "2": "(0, 3)",
+                "3": "(0, 2)",
+                "4": "(1, 1)",
+                "5": "(2, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 3)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.524371759680537,
+                "wind_speed": 13.674859803360667,
+                "visibility": 92.58779501311776,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 3)",
+                "1": "(1, 4)",
+                "2": "(0, 4)",
+                "3": "(0, 3)",
+                "4": "(1, 2)",
+                "5": "(2, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.810507143444383,
+                "wind_speed": 12.418039645229628,
+                "visibility": 95.09774315270782,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 4)",
+                "1": "(1, 5)",
+                "2": "(0, 5)",
+                "3": "(0, 4)",
+                "4": "(1, 3)",
+                "5": "(2, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 5)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.484402486300219,
+                "wind_speed": 8.733567256324037,
+                "visibility": 90.32402536524299,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 5)",
+                "1": "(1, 6)",
+                "2": "(0, 6)",
+                "3": "(0, 5)",
+                "4": "(1, 4)",
+                "5": "(2, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.012815859565302,
+                "wind_speed": 7.818993032999349,
+                "visibility": 93.8062335506891,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 6)",
+                "1": "(1, 7)",
+                "2": "(0, 7)",
+                "3": "(0, 6)",
+                "4": "(1, 5)",
+                "5": "(2, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.365220050207082,
+                "wind_speed": 9.410678303033146,
+                "visibility": 92.22701932450362,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 7)",
+                "1": "(1, 8)",
+                "2": "(0, 8)",
+                "3": "(0, 7)",
+                "4": "(1, 6)",
+                "5": "(2, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 8)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.506034609971724,
+                "wind_speed": 7.929073137185909,
+                "visibility": 94.90040774101142,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 8)",
+                "1": "(1, 9)",
+                "2": "(0, 9)",
+                "3": "(0, 8)",
+                "4": "(1, 7)",
+                "5": "(2, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.599357502698043,
+                "wind_speed": 11.453283440200725,
+                "visibility": 92.10957986874578,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 9)",
+                "1": "(1, 10)",
+                "2": "(0, 10)",
+                "3": "(0, 9)",
+                "4": "(1, 8)",
+                "5": "(2, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.856960207496101,
+                "wind_speed": 8.339430265935524,
+                "visibility": 89.92327723244684,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 10)",
+                "1": "(1, 11)",
+                "2": "(0, 11)",
+                "3": "(0, 10)",
+                "4": "(1, 9)",
+                "5": "(2, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.725424052234157,
+                "wind_speed": 10.475473091419937,
+                "visibility": 91.34331097106738,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 11)",
+                "1": "(1, 12)",
+                "2": "(0, 12)",
+                "3": "(0, 11)",
+                "4": "(1, 10)",
+                "5": "(2, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.529953247662382,
+                "wind_speed": 10.627704995904725,
+                "visibility": 91.4636912709168,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 12)",
+                "1": "(1, 13)",
+                "2": "(0, 13)",
+                "3": "(0, 12)",
+                "4": "(1, 11)",
+                "5": "(2, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(1, 13)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.858706535734381,
+                "wind_speed": 14.976665182293956,
+                "visibility": 90.11136219019511,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(2, 13)",
+                "1": null,
+                "2": null,
+                "3": "(0, 13)",
+                "4": "(1, 12)",
+                "5": "(2, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 0)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.242953136577205,
+                "wind_speed": 7.220789509055422,
+                "visibility": 92.80485209712532,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 0)",
+                "1": "(2, 1)",
+                "2": "(1, 1)",
+                "3": "(1, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 1)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 5.145543930904666,
+                "wind_speed": 13.643580642554321,
+                "visibility": 89.3870016572226,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 1)",
+                "1": "(2, 2)",
+                "2": "(1, 2)",
+                "3": "(1, 1)",
+                "4": "(2, 0)",
+                "5": "(3, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.55081650849777,
+                "wind_speed": 15.539608374004162,
+                "visibility": 89.55642388590337,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 2)",
+                "1": "(2, 3)",
+                "2": "(1, 3)",
+                "3": "(1, 2)",
+                "4": "(2, 1)",
+                "5": "(3, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.456927594732036,
+                "wind_speed": 11.809785385353909,
+                "visibility": 92.00138736070055,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 3)",
+                "1": "(2, 4)",
+                "2": "(1, 4)",
+                "3": "(1, 3)",
+                "4": "(2, 2)",
+                "5": "(3, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 14.00982217118575,
+                "wind_speed": 8.721084953383833,
+                "visibility": 89.48010592168984,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 4)",
+                "1": "(2, 5)",
+                "2": "(1, 5)",
+                "3": "(1, 4)",
+                "4": "(2, 3)",
+                "5": "(3, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 5)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.649873842523075,
+                "wind_speed": 9.506984874814343,
+                "visibility": 91.05176309734304,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 5)",
+                "1": "(2, 6)",
+                "2": "(1, 6)",
+                "3": "(1, 5)",
+                "4": "(2, 4)",
+                "5": "(3, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.16220576533372,
+                "wind_speed": 7.237737243834049,
+                "visibility": 89.94318022140568,
+                "precipitation": 0.46819207868578894,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 6)",
+                "1": "(2, 7)",
+                "2": "(1, 7)",
+                "3": "(1, 6)",
+                "4": "(2, 5)",
+                "5": "(3, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.917119116539334,
+                "wind_speed": 11.347837400395873,
+                "visibility": 92.35771407392328,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 7)",
+                "1": "(2, 8)",
+                "2": "(1, 8)",
+                "3": "(1, 7)",
+                "4": "(2, 6)",
+                "5": "(3, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 8)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 5.840065722849132,
+                "wind_speed": 14.856992728164503,
+                "visibility": 87.85931766451891,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 8)",
+                "1": "(2, 9)",
+                "2": "(1, 9)",
+                "3": "(1, 8)",
+                "4": "(2, 7)",
+                "5": "(3, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 9)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.390795859353885,
+                "wind_speed": 14.56957231197526,
+                "visibility": 88.89359310566041,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 9)",
+                "1": "(2, 10)",
+                "2": "(1, 10)",
+                "3": "(1, 9)",
+                "4": "(2, 8)",
+                "5": "(3, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.844128184755025,
+                "wind_speed": 5.003820909388308,
+                "visibility": 94.29876273658806,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 10)",
+                "1": "(2, 11)",
+                "2": "(1, 11)",
+                "3": "(1, 10)",
+                "4": "(2, 9)",
+                "5": "(3, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.943794650459822,
+                "wind_speed": 12.82627413327604,
+                "visibility": 94.37600876239243,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 11)",
+                "1": "(2, 12)",
+                "2": "(1, 12)",
+                "3": "(1, 11)",
+                "4": "(2, 10)",
+                "5": "(3, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.616409587577477,
+                "wind_speed": 9.377111574700495,
+                "visibility": 90.52954319166223,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 12)",
+                "1": "(2, 13)",
+                "2": "(1, 13)",
+                "3": "(1, 12)",
+                "4": "(2, 11)",
+                "5": "(3, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(2, 13)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.977130825611736,
+                "wind_speed": 7.991120243595052,
+                "visibility": 89.87927939363578,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(3, 13)",
+                "1": null,
+                "2": null,
+                "3": "(1, 13)",
+                "4": "(2, 12)",
+                "5": "(3, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 0)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 11.652167016494989,
+                "wind_speed": 16.708471409847114,
+                "visibility": 93.39765026511243,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 0)",
+                "1": "(3, 1)",
+                "2": "(2, 1)",
+                "3": "(2, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.637975950123757,
+                "wind_speed": 9.321391960553239,
+                "visibility": 92.29220749375453,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 1)",
+                "1": "(3, 2)",
+                "2": "(2, 2)",
+                "3": "(2, 1)",
+                "4": "(3, 0)",
+                "5": "(4, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.967982175612379,
+                "wind_speed": 14.335291115189884,
+                "visibility": 93.46304364746302,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 2)",
+                "1": "(3, 3)",
+                "2": "(2, 3)",
+                "3": "(2, 2)",
+                "4": "(3, 1)",
+                "5": "(4, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.490798735830367,
+                "wind_speed": 9.127414252191256,
+                "visibility": 95.80890403537103,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 3)",
+                "1": "(3, 4)",
+                "2": "(2, 4)",
+                "3": "(2, 3)",
+                "4": "(3, 2)",
+                "5": "(4, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.642906337855447,
+                "wind_speed": 10.747945252770931,
+                "visibility": 92.73880556062207,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 4)",
+                "1": "(3, 5)",
+                "2": "(2, 5)",
+                "3": "(2, 4)",
+                "4": "(3, 3)",
+                "5": "(4, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 5)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.21216046248172,
+                "wind_speed": 12.998990457376662,
+                "visibility": 88.37188329723026,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 5)",
+                "1": "(3, 6)",
+                "2": "(2, 6)",
+                "3": "(2, 5)",
+                "4": "(3, 4)",
+                "5": "(4, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.665157132260525,
+                "wind_speed": 12.346865288094401,
+                "visibility": 89.08818056685774,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 6)",
+                "1": "(3, 7)",
+                "2": "(2, 7)",
+                "3": "(2, 6)",
+                "4": "(3, 5)",
+                "5": "(4, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.255673929772108,
+                "wind_speed": 10.056626277403078,
+                "visibility": 90.31819712748926,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 7)",
+                "1": "(3, 8)",
+                "2": "(2, 8)",
+                "3": "(2, 7)",
+                "4": "(3, 6)",
+                "5": "(4, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 8)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.327529989077956,
+                "wind_speed": 6.394823505219946,
+                "visibility": 90.02709423921081,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 8)",
+                "1": "(3, 9)",
+                "2": "(2, 9)",
+                "3": "(2, 8)",
+                "4": "(3, 7)",
+                "5": "(4, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(3, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.728200503382734,
+                "wind_speed": 9.398143344169164,
+                "visibility": 91.29621643973456,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 9)",
+                "1": "(3, 10)",
+                "2": "(2, 10)",
+                "3": "(2, 9)",
+                "4": "(3, 8)",
+                "5": "(4, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.990290933381683,
+                "wind_speed": 9.521076141450921,
+                "visibility": 92.07194962282904,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 10)",
+                "1": "(3, 11)",
+                "2": "(2, 11)",
+                "3": "(2, 10)",
+                "4": "(3, 9)",
+                "5": "(4, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.50585805128083,
+                "wind_speed": 6.5853299960849405,
+                "visibility": 89.54318025396043,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 11)",
+                "1": "(3, 12)",
+                "2": "(2, 12)",
+                "3": "(2, 11)",
+                "4": "(3, 10)",
+                "5": "(4, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.112827896791353,
+                "wind_speed": 10.596507613223286,
+                "visibility": 93.68361777066544,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 12)",
+                "1": "(3, 13)",
+                "2": "(2, 13)",
+                "3": "(2, 12)",
+                "4": "(3, 11)",
+                "5": "(4, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(3, 13)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.459382415781339,
+                "wind_speed": 12.809809105149467,
+                "visibility": 89.06055549960284,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(4, 13)",
+                "1": null,
+                "2": null,
+                "3": "(2, 13)",
+                "4": "(3, 12)",
+                "5": "(4, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(4, 0)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.94569369223901,
+                "wind_speed": 7.054832615580499,
+                "visibility": 91.69173948393039,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 0)",
+                "1": "(4, 1)",
+                "2": "(3, 1)",
+                "3": "(3, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 1)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.470267844412751,
+                "wind_speed": 9.03818737951147,
+                "visibility": 91.77613270607965,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 1)",
+                "1": "(4, 2)",
+                "2": "(3, 2)",
+                "3": "(3, 1)",
+                "4": "(4, 0)",
+                "5": "(5, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.062392782182993,
+                "wind_speed": 15.96140949211689,
+                "visibility": 85.11136095996642,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 2)",
+                "1": "(4, 3)",
+                "2": "(3, 3)",
+                "3": "(3, 2)",
+                "4": "(4, 1)",
+                "5": "(5, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 3)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 4.2029706075414754,
+                "wind_speed": 13.269575145800525,
+                "visibility": 90.22313209927961,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 3)",
+                "1": "(4, 4)",
+                "2": "(3, 4)",
+                "3": "(3, 3)",
+                "4": "(4, 2)",
+                "5": "(5, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 4)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.788326333711713,
+                "wind_speed": 15.608686760471942,
+                "visibility": 93.08142257771118,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 4)",
+                "1": "(4, 5)",
+                "2": "(3, 5)",
+                "3": "(3, 4)",
+                "4": "(4, 3)",
+                "5": "(5, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 5)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.12673428013823,
+                "wind_speed": 9.539229983821482,
+                "visibility": 92.43900696653762,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 5)",
+                "1": "(4, 6)",
+                "2": "(3, 6)",
+                "3": "(3, 5)",
+                "4": "(4, 4)",
+                "5": "(5, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 6)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 10.893568588561234,
+                "wind_speed": 11.711632398487009,
+                "visibility": 93.97616200490782,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 6)",
+                "1": "(4, 7)",
+                "2": "(3, 7)",
+                "3": "(3, 6)",
+                "4": "(4, 5)",
+                "5": "(5, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.455499363877106,
+                "wind_speed": 8.7931778555967,
+                "visibility": 93.3151567965568,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 7)",
+                "1": "(4, 8)",
+                "2": "(3, 8)",
+                "3": "(3, 7)",
+                "4": "(4, 6)",
+                "5": "(5, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 8)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.763271102360918,
+                "wind_speed": 6.621298784575222,
+                "visibility": 91.15775488270519,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 8)",
+                "1": "(4, 9)",
+                "2": "(3, 9)",
+                "3": "(3, 8)",
+                "4": "(4, 7)",
+                "5": "(5, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.968563778760883,
+                "wind_speed": 8.805908547426174,
+                "visibility": 92.71791513689924,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 9)",
+                "1": "(4, 10)",
+                "2": "(3, 10)",
+                "3": "(3, 9)",
+                "4": "(4, 8)",
+                "5": "(5, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 10)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 10.959596866751221,
+                "wind_speed": 15.137308934574596,
+                "visibility": 94.29646669827328,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 10)",
+                "1": "(4, 11)",
+                "2": "(3, 11)",
+                "3": "(3, 10)",
+                "4": "(4, 9)",
+                "5": "(5, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 11)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.02717914065433,
+                "wind_speed": 14.556448802816561,
+                "visibility": 88.62521061459931,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 11)",
+                "1": "(4, 12)",
+                "2": "(3, 12)",
+                "3": "(3, 11)",
+                "4": "(4, 10)",
+                "5": "(5, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.621319244092398,
+                "wind_speed": 7.97223844054083,
+                "visibility": 92.23138553438727,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 12)",
+                "1": "(4, 13)",
+                "2": "(3, 13)",
+                "3": "(3, 12)",
+                "4": "(4, 11)",
+                "5": "(5, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(4, 13)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.170679214475925,
+                "wind_speed": 5.782312200537527,
+                "visibility": 89.41596136230606,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(5, 13)",
+                "1": null,
+                "2": null,
+                "3": "(3, 13)",
+                "4": "(4, 12)",
+                "5": "(5, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 0)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.075258091065214,
+                "wind_speed": 7.574028208325762,
+                "visibility": 90.7552822613269,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 0)",
+                "1": "(5, 1)",
+                "2": "(4, 1)",
+                "3": "(4, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 1)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 10.324908452192146,
+                "wind_speed": 12.13592405639863,
+                "visibility": 90.85413199033205,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 1)",
+                "1": "(5, 2)",
+                "2": "(4, 2)",
+                "3": "(4, 1)",
+                "4": "(5, 0)",
+                "5": "(6, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 4.275633729954679,
+                "wind_speed": 14.210285799747087,
+                "visibility": 71.19756772250379,
+                "precipitation": 7.595356173510756,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 2)",
+                "1": "(5, 3)",
+                "2": "(4, 3)",
+                "3": "(4, 2)",
+                "4": "(5, 1)",
+                "5": "(6, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 3)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 5.552127965689562,
+                "wind_speed": 12.967448324313786,
+                "visibility": 90.9350366910049,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 3)",
+                "1": "(5, 4)",
+                "2": "(4, 4)",
+                "3": "(4, 3)",
+                "4": "(5, 2)",
+                "5": "(6, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.11246194470642,
+                "wind_speed": 10.524292406463006,
+                "visibility": 94.01393044246788,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 4)",
+                "1": "(5, 5)",
+                "2": "(4, 5)",
+                "3": "(4, 4)",
+                "4": "(5, 3)",
+                "5": "(6, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 5)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.205866506941194,
+                "wind_speed": 16.8100881167913,
+                "visibility": 90.7849222244023,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 5)",
+                "1": "(5, 6)",
+                "2": "(4, 6)",
+                "3": "(4, 5)",
+                "4": "(5, 4)",
+                "5": "(6, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 6)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.052009790231974,
+                "wind_speed": 15.772382853488804,
+                "visibility": 89.70450201904251,
+                "precipitation": 0.0934448440531489,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 6)",
+                "1": "(5, 7)",
+                "2": "(4, 7)",
+                "3": "(4, 6)",
+                "4": "(5, 5)",
+                "5": "(6, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.700057229896851,
+                "wind_speed": 11.11023980457574,
+                "visibility": 91.42035883464445,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 7)",
+                "1": "(5, 8)",
+                "2": "(4, 8)",
+                "3": "(4, 7)",
+                "4": "(5, 6)",
+                "5": "(6, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 8)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 11.558383943392634,
+                "wind_speed": 13.131875259718866,
+                "visibility": 85.0746180610238,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 8)",
+                "1": "(5, 9)",
+                "2": "(4, 9)",
+                "3": "(4, 8)",
+                "4": "(5, 7)",
+                "5": "(6, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 9)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.311566972105286,
+                "wind_speed": 13.037435881946354,
+                "visibility": 86.90251481332011,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 9)",
+                "1": "(5, 10)",
+                "2": "(4, 10)",
+                "3": "(4, 9)",
+                "4": "(5, 8)",
+                "5": "(6, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.392076150243758,
+                "wind_speed": 10.47859305268605,
+                "visibility": 92.65212529070911,
+                "precipitation": 0.8895721616414026,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 10)",
+                "1": "(5, 11)",
+                "2": "(4, 11)",
+                "3": "(4, 10)",
+                "4": "(5, 9)",
+                "5": "(6, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(5, 11)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.829889375917805,
+                "wind_speed": 13.52071450149232,
+                "visibility": 90.86434751774729,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 11)",
+                "1": "(5, 12)",
+                "2": "(4, 12)",
+                "3": "(4, 11)",
+                "4": "(5, 10)",
+                "5": "(6, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.454305365719437,
+                "wind_speed": 6.253633228960109,
+                "visibility": 95.31918314428405,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 12)",
+                "1": "(5, 13)",
+                "2": "(4, 13)",
+                "3": "(4, 12)",
+                "4": "(5, 11)",
+                "5": "(6, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(5, 13)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.108290237253689,
+                "wind_speed": 8.99967721268041,
+                "visibility": 93.12297370929574,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(6, 13)",
+                "1": null,
+                "2": null,
+                "3": "(4, 13)",
+                "4": "(5, 12)",
+                "5": "(6, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 0)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.412622198560808,
+                "wind_speed": 5.6023362373416195,
+                "visibility": 93.63197929219331,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 0)",
+                "1": "(6, 1)",
+                "2": "(5, 1)",
+                "3": "(5, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 1)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 4.863356195018943,
+                "wind_speed": 17.18147882968299,
+                "visibility": 93.90329422663896,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 1)",
+                "1": "(6, 2)",
+                "2": "(5, 2)",
+                "3": "(5, 1)",
+                "4": "(6, 0)",
+                "5": "(7, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 2)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.269738885047165,
+                "wind_speed": 10.276203761363858,
+                "visibility": 92.40995695381297,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 2)",
+                "1": "(6, 3)",
+                "2": "(5, 3)",
+                "3": "(5, 2)",
+                "4": "(6, 1)",
+                "5": "(7, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.634780515496368,
+                "wind_speed": 8.762121795436578,
+                "visibility": 91.43982763282638,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 3)",
+                "1": "(6, 4)",
+                "2": "(5, 4)",
+                "3": "(5, 3)",
+                "4": "(6, 2)",
+                "5": "(7, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 4)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.626497153743129,
+                "wind_speed": 15.296280426229329,
+                "visibility": 85.52958347401,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 4)",
+                "1": "(6, 5)",
+                "2": "(5, 5)",
+                "3": "(5, 4)",
+                "4": "(6, 3)",
+                "5": "(7, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 5)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.27119588440061,
+                "wind_speed": 9.452522750653028,
+                "visibility": 90.89304500001812,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 5)",
+                "1": "(6, 6)",
+                "2": "(5, 6)",
+                "3": "(5, 5)",
+                "4": "(6, 4)",
+                "5": "(7, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(6, 6)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.395501932268257,
+                "wind_speed": 13.047198693651625,
+                "visibility": 87.86318050412231,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 6)",
+                "1": "(6, 7)",
+                "2": "(5, 7)",
+                "3": "(5, 6)",
+                "4": "(6, 5)",
+                "5": "(7, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 7)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 5.158761521158635,
+                "wind_speed": 16.003971766381063,
+                "visibility": 95.58159631014503,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 7)",
+                "1": "(6, 8)",
+                "2": "(5, 8)",
+                "3": "(5, 7)",
+                "4": "(6, 6)",
+                "5": "(7, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 8)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.7653883922409035,
+                "wind_speed": 3.7913390678644427,
+                "visibility": 88.77059248327835,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 8)",
+                "1": "(6, 9)",
+                "2": "(5, 9)",
+                "3": "(5, 8)",
+                "4": "(6, 7)",
+                "5": "(7, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.82489877522577,
+                "wind_speed": 6.826557632988107,
+                "visibility": 90.40866854018006,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 9)",
+                "1": "(6, 10)",
+                "2": "(5, 10)",
+                "3": "(5, 9)",
+                "4": "(6, 8)",
+                "5": "(7, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.92581580975787,
+                "wind_speed": 8.629334598550903,
+                "visibility": 92.08588450204773,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 10)",
+                "1": "(6, 11)",
+                "2": "(5, 11)",
+                "3": "(5, 10)",
+                "4": "(6, 9)",
+                "5": "(7, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.535225814604164,
+                "wind_speed": 9.967761089552551,
+                "visibility": 42.092622581054414,
+                "precipitation": 22.566607120078537,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 11)",
+                "1": "(6, 12)",
+                "2": "(5, 12)",
+                "3": "(5, 11)",
+                "4": "(6, 10)",
+                "5": "(7, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.347168229091622,
+                "wind_speed": 9.202512780840504,
+                "visibility": 92.04126331666545,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 12)",
+                "1": "(6, 13)",
+                "2": "(5, 13)",
+                "3": "(5, 12)",
+                "4": "(6, 11)",
+                "5": "(7, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(6, 13)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.612344334129247,
+                "wind_speed": 7.465279506059588,
+                "visibility": 92.11712289966879,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(7, 13)",
+                "1": null,
+                "2": null,
+                "3": "(5, 13)",
+                "4": "(6, 12)",
+                "5": "(7, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 0)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.196004601594745,
+                "wind_speed": 12.945250967684007,
+                "visibility": 90.57848485857862,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 0)",
+                "1": "(7, 1)",
+                "2": "(6, 1)",
+                "3": "(6, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 1)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.747874299891798,
+                "wind_speed": 14.107527173634038,
+                "visibility": 90.35263892626132,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 1)",
+                "1": "(7, 2)",
+                "2": "(6, 2)",
+                "3": "(6, 1)",
+                "4": "(7, 0)",
+                "5": "(8, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 2)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.795454538262266,
+                "wind_speed": 10.174325392383386,
+                "visibility": 93.36372648307065,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 2)",
+                "1": "(7, 3)",
+                "2": "(6, 3)",
+                "3": "(6, 2)",
+                "4": "(7, 1)",
+                "5": "(8, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.221740384860873,
+                "wind_speed": 9.722985237012846,
+                "visibility": 96.62113811877022,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 3)",
+                "1": "(7, 4)",
+                "2": "(6, 4)",
+                "3": "(6, 3)",
+                "4": "(7, 2)",
+                "5": "(8, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.560556741116766,
+                "wind_speed": 4.602868272809794,
+                "visibility": 92.97763851191112,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 4)",
+                "1": "(7, 5)",
+                "2": "(6, 5)",
+                "3": "(6, 4)",
+                "4": "(7, 3)",
+                "5": "(8, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 5)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.033836894182825,
+                "wind_speed": 13.740700829231033,
+                "visibility": 91.65567755315215,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 5)",
+                "1": "(7, 6)",
+                "2": "(6, 6)",
+                "3": "(6, 5)",
+                "4": "(7, 4)",
+                "5": "(8, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.839185669420853,
+                "wind_speed": 5.657496448925143,
+                "visibility": 91.22753288964817,
+                "precipitation": 0.22312396748590813,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 6)",
+                "1": "(7, 7)",
+                "2": "(6, 7)",
+                "3": "(6, 6)",
+                "4": "(7, 5)",
+                "5": "(8, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 7)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.499895287852098,
+                "wind_speed": 14.848087745385207,
+                "visibility": 89.38698199238786,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 7)",
+                "1": "(7, 8)",
+                "2": "(6, 8)",
+                "3": "(6, 7)",
+                "4": "(7, 6)",
+                "5": "(8, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 8)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.239462746388496,
+                "wind_speed": 7.866337212213074,
+                "visibility": 92.2204602553046,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 8)",
+                "1": "(7, 9)",
+                "2": "(6, 9)",
+                "3": "(6, 8)",
+                "4": "(7, 7)",
+                "5": "(8, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(7, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.430565866346791,
+                "wind_speed": 7.449126424112788,
+                "visibility": 92.3979196705799,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 9)",
+                "1": "(7, 10)",
+                "2": "(6, 10)",
+                "3": "(6, 9)",
+                "4": "(7, 8)",
+                "5": "(8, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.329635422682864,
+                "wind_speed": 6.210306768645475,
+                "visibility": 91.88742779924256,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 10)",
+                "1": "(7, 11)",
+                "2": "(6, 11)",
+                "3": "(6, 10)",
+                "4": "(7, 9)",
+                "5": "(8, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.524705120170479,
+                "wind_speed": 7.361537748561905,
+                "visibility": 93.95576616508681,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 11)",
+                "1": "(7, 12)",
+                "2": "(6, 12)",
+                "3": "(6, 11)",
+                "4": "(7, 10)",
+                "5": "(8, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.128163932301401,
+                "wind_speed": 8.027916127230286,
+                "visibility": 93.28580657414439,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 12)",
+                "1": "(7, 13)",
+                "2": "(6, 13)",
+                "3": "(6, 12)",
+                "4": "(7, 11)",
+                "5": "(8, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(7, 13)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.156069489934042,
+                "wind_speed": 14.268259861329627,
+                "visibility": 90.43963952912485,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(8, 13)",
+                "1": null,
+                "2": null,
+                "3": "(6, 13)",
+                "4": "(7, 12)",
+                "5": "(8, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 0)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.390528185704458,
+                "wind_speed": 8.81369190750022,
+                "visibility": 59.72443952216642,
+                "precipitation": 15.650889911988104,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 0)",
+                "1": "(8, 1)",
+                "2": "(7, 1)",
+                "3": "(7, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(8, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.681816844338677,
+                "wind_speed": 7.738653593156528,
+                "visibility": 89.17580456695748,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 1)",
+                "1": "(8, 2)",
+                "2": "(7, 2)",
+                "3": "(7, 1)",
+                "4": "(8, 0)",
+                "5": "(9, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(8, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.180895075961436,
+                "wind_speed": 17.934724175268965,
+                "visibility": 86.359186520832,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 2)",
+                "1": "(8, 3)",
+                "2": "(7, 3)",
+                "3": "(7, 2)",
+                "4": "(8, 1)",
+                "5": "(9, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.982252545812845,
+                "wind_speed": 6.7900791818806585,
+                "visibility": 91.12006440853652,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 3)",
+                "1": "(8, 4)",
+                "2": "(7, 4)",
+                "3": "(7, 3)",
+                "4": "(8, 2)",
+                "5": "(9, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.60294692431884,
+                "wind_speed": 11.32529835919174,
+                "visibility": 92.68557395368269,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 4)",
+                "1": "(8, 5)",
+                "2": "(7, 5)",
+                "3": "(7, 4)",
+                "4": "(8, 3)",
+                "5": "(9, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 5)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.196534681034158,
+                "wind_speed": 13.151904857432049,
+                "visibility": 91.10885355694934,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 5)",
+                "1": "(8, 6)",
+                "2": "(7, 6)",
+                "3": "(7, 5)",
+                "4": "(8, 4)",
+                "5": "(9, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 6)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.913729781773933,
+                "wind_speed": 15.950048386018477,
+                "visibility": 88.68895844308287,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 6)",
+                "1": "(8, 7)",
+                "2": "(7, 7)",
+                "3": "(7, 6)",
+                "4": "(8, 5)",
+                "5": "(9, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(8, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.848271514581586,
+                "wind_speed": 7.660670205019761,
+                "visibility": 91.08747448425187,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 7)",
+                "1": "(8, 8)",
+                "2": "(7, 8)",
+                "3": "(7, 7)",
+                "4": "(8, 6)",
+                "5": "(9, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 8)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.191757042655027,
+                "wind_speed": 10.474742218657518,
+                "visibility": 91.55148205011577,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 8)",
+                "1": "(8, 9)",
+                "2": "(7, 9)",
+                "3": "(7, 8)",
+                "4": "(8, 7)",
+                "5": "(9, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(8, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.736356094991422,
+                "wind_speed": 6.47534730236643,
+                "visibility": 94.91495908387076,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 9)",
+                "1": "(8, 10)",
+                "2": "(7, 10)",
+                "3": "(7, 9)",
+                "4": "(8, 8)",
+                "5": "(9, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.608040641915153,
+                "wind_speed": 6.908902691491221,
+                "visibility": 89.72107027268565,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 10)",
+                "1": "(8, 11)",
+                "2": "(7, 11)",
+                "3": "(7, 10)",
+                "4": "(8, 9)",
+                "5": "(9, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(8, 11)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.997209156302948,
+                "wind_speed": 13.55806891687324,
+                "visibility": 88.94626523089367,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 11)",
+                "1": "(8, 12)",
+                "2": "(7, 12)",
+                "3": "(7, 11)",
+                "4": "(8, 10)",
+                "5": "(9, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 12)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 5.859570242148095,
+                "wind_speed": 16.87514030250449,
+                "visibility": 86.71408742358997,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 12)",
+                "1": "(8, 13)",
+                "2": "(7, 13)",
+                "3": "(7, 12)",
+                "4": "(8, 11)",
+                "5": "(9, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(8, 13)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 4.3190791763413685,
+                "wind_speed": 11.825757741685674,
+                "visibility": 87.5947121677034,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(9, 13)",
+                "1": null,
+                "2": null,
+                "3": "(7, 13)",
+                "4": "(8, 12)",
+                "5": "(9, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 0)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.514709842417982,
+                "wind_speed": 12.81357148314975,
+                "visibility": 92.33182889422774,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 0)",
+                "1": "(9, 1)",
+                "2": "(8, 1)",
+                "3": "(8, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.474104858986152,
+                "wind_speed": 11.29856838721423,
+                "visibility": 92.22754627392224,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 1)",
+                "1": "(9, 2)",
+                "2": "(8, 2)",
+                "3": "(8, 1)",
+                "4": "(9, 0)",
+                "5": "(10, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 2)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.830099134379882,
+                "wind_speed": 8.205440175404448,
+                "visibility": 91.02501025159967,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 2)",
+                "1": "(9, 3)",
+                "2": "(8, 3)",
+                "3": "(8, 2)",
+                "4": "(9, 1)",
+                "5": "(10, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.251176810959315,
+                "wind_speed": 10.404036463017306,
+                "visibility": 90.52747714098034,
+                "precipitation": 1.6682374329521608,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 3)",
+                "1": "(9, 4)",
+                "2": "(8, 4)",
+                "3": "(8, 3)",
+                "4": "(9, 2)",
+                "5": "(10, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 4)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.57220824553425,
+                "wind_speed": 12.078997486872323,
+                "visibility": 94.9889449475575,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 4)",
+                "1": "(9, 5)",
+                "2": "(8, 5)",
+                "3": "(8, 4)",
+                "4": "(9, 3)",
+                "5": "(10, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(9, 5)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.1756728244626,
+                "wind_speed": 13.326853117025896,
+                "visibility": 85.82009163235847,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 5)",
+                "1": "(9, 6)",
+                "2": "(8, 6)",
+                "3": "(8, 5)",
+                "4": "(9, 4)",
+                "5": "(10, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 13.030972796636904,
+                "wind_speed": 8.443423936960388,
+                "visibility": 90.11140742287199,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 6)",
+                "1": "(9, 7)",
+                "2": "(8, 7)",
+                "3": "(8, 6)",
+                "4": "(9, 5)",
+                "5": "(10, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.261064312005624,
+                "wind_speed": 8.435899168071428,
+                "visibility": 90.36496277949622,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 7)",
+                "1": "(9, 8)",
+                "2": "(8, 8)",
+                "3": "(8, 7)",
+                "4": "(9, 6)",
+                "5": "(10, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 8)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.034810401091903,
+                "wind_speed": 9.075736165239496,
+                "visibility": 38.38530469550796,
+                "precipitation": 24.309537791489685,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 8)",
+                "1": "(9, 9)",
+                "2": "(8, 9)",
+                "3": "(8, 8)",
+                "4": "(9, 7)",
+                "5": "(10, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.083924068225546,
+                "wind_speed": 7.8056802028854,
+                "visibility": 92.10907418583074,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 9)",
+                "1": "(9, 10)",
+                "2": "(8, 10)",
+                "3": "(8, 9)",
+                "4": "(9, 8)",
+                "5": "(10, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.775111268324252,
+                "wind_speed": 9.385836028418378,
+                "visibility": 89.74130383199245,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 10)",
+                "1": "(9, 11)",
+                "2": "(8, 11)",
+                "3": "(8, 10)",
+                "4": "(9, 9)",
+                "5": "(10, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 11)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.279870648967222,
+                "wind_speed": 13.127299473925808,
+                "visibility": 90.96860497061792,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 11)",
+                "1": "(9, 12)",
+                "2": "(8, 12)",
+                "3": "(8, 11)",
+                "4": "(9, 10)",
+                "5": "(10, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.541226932877143,
+                "wind_speed": 11.296324487357882,
+                "visibility": 90.37886615261439,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 12)",
+                "1": "(9, 13)",
+                "2": "(8, 13)",
+                "3": "(8, 12)",
+                "4": "(9, 11)",
+                "5": "(10, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(9, 13)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.953034845205416,
+                "wind_speed": 11.077446176161533,
+                "visibility": 91.87589481173141,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(10, 13)",
+                "1": null,
+                "2": null,
+                "3": "(8, 13)",
+                "4": "(9, 12)",
+                "5": "(10, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 0)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.937035891032263,
+                "wind_speed": 6.481083366558266,
+                "visibility": 91.47029501658632,
+                "precipitation": 0.12475995075953702,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 0)",
+                "1": "(10, 1)",
+                "2": "(9, 1)",
+                "3": "(9, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.648919770353666,
+                "wind_speed": 5.987548324833085,
+                "visibility": 89.13248368992426,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 1)",
+                "1": "(10, 2)",
+                "2": "(9, 2)",
+                "3": "(9, 1)",
+                "4": "(10, 0)",
+                "5": "(11, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 10.229331710567514,
+                "wind_speed": 13.392244842108687,
+                "visibility": 88.02391973582911,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 2)",
+                "1": "(10, 3)",
+                "2": "(9, 3)",
+                "3": "(9, 2)",
+                "4": "(10, 1)",
+                "5": "(11, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 3)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 5.9249839965962074,
+                "wind_speed": 14.104936076227103,
+                "visibility": 88.35289924037995,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 3)",
+                "1": "(10, 4)",
+                "2": "(9, 4)",
+                "3": "(9, 3)",
+                "4": "(10, 2)",
+                "5": "(11, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 4)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.517290110673047,
+                "wind_speed": 15.687847458089307,
+                "visibility": 92.20370600059029,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 4)",
+                "1": "(10, 5)",
+                "2": "(9, 5)",
+                "3": "(9, 4)",
+                "4": "(10, 3)",
+                "5": "(11, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 5)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.274411436198466,
+                "wind_speed": 17.507879086337013,
+                "visibility": 88.88001761579804,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 5)",
+                "1": "(10, 6)",
+                "2": "(9, 6)",
+                "3": "(9, 5)",
+                "4": "(10, 4)",
+                "5": "(11, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 15.53076495259184,
+                "wind_speed": 6.326735267299446,
+                "visibility": 89.97599120522688,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 6)",
+                "1": "(10, 7)",
+                "2": "(9, 7)",
+                "3": "(9, 6)",
+                "4": "(10, 5)",
+                "5": "(11, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(10, 7)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.478783855246181,
+                "wind_speed": 12.892011870681982,
+                "visibility": 87.89868520921308,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 7)",
+                "1": "(10, 8)",
+                "2": "(9, 8)",
+                "3": "(9, 7)",
+                "4": "(10, 6)",
+                "5": "(11, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 8)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.641559525375849,
+                "wind_speed": 12.417786288580677,
+                "visibility": 89.81166091340813,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 8)",
+                "1": "(10, 9)",
+                "2": "(9, 9)",
+                "3": "(9, 8)",
+                "4": "(10, 7)",
+                "5": "(11, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.42395094610687,
+                "wind_speed": 9.054197477576539,
+                "visibility": 92.45078196498207,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 9)",
+                "1": "(10, 10)",
+                "2": "(9, 10)",
+                "3": "(9, 9)",
+                "4": "(10, 8)",
+                "5": "(11, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(10, 10)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.80969848397255,
+                "wind_speed": 16.653105177755616,
+                "visibility": 91.10067734683642,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 10)",
+                "1": "(10, 11)",
+                "2": "(9, 11)",
+                "3": "(9, 10)",
+                "4": "(10, 9)",
+                "5": "(11, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 11)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.215502137533131,
+                "wind_speed": 14.667298403650287,
+                "visibility": 86.60445854809186,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 11)",
+                "1": "(10, 12)",
+                "2": "(9, 12)",
+                "3": "(9, 11)",
+                "4": "(10, 10)",
+                "5": "(11, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 12)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.680366117190653,
+                "wind_speed": 7.8233527676913575,
+                "visibility": 93.41397288488733,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 12)",
+                "1": "(10, 13)",
+                "2": "(9, 13)",
+                "3": "(9, 12)",
+                "4": "(10, 11)",
+                "5": "(11, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(10, 13)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 10.351149756815998,
+                "wind_speed": 13.248552938779639,
+                "visibility": 91.06851292924692,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(11, 13)",
+                "1": null,
+                "2": null,
+                "3": "(9, 13)",
+                "4": "(10, 12)",
+                "5": "(11, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 0)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.851377511768288,
+                "wind_speed": 13.072637223833382,
+                "visibility": 91.55987329606225,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 0)",
+                "1": "(11, 1)",
+                "2": "(10, 1)",
+                "3": "(10, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(11, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.321331512460736,
+                "wind_speed": 8.894657088683346,
+                "visibility": 81.62783239984209,
+                "precipitation": 3.8845121880264823,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 1)",
+                "1": "(11, 2)",
+                "2": "(10, 2)",
+                "3": "(10, 1)",
+                "4": "(11, 0)",
+                "5": "(12, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 2)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.82388229687889,
+                "wind_speed": 7.57982332938023,
+                "visibility": 92.49188527195238,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 2)",
+                "1": "(11, 3)",
+                "2": "(10, 3)",
+                "3": "(10, 2)",
+                "4": "(11, 1)",
+                "5": "(12, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 3)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.14813103799116,
+                "wind_speed": 14.309084395038129,
+                "visibility": 90.25851838424389,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 3)",
+                "1": "(11, 4)",
+                "2": "(10, 4)",
+                "3": "(10, 3)",
+                "4": "(11, 2)",
+                "5": "(12, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 4)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.521588114391097,
+                "wind_speed": 16.895993298602544,
+                "visibility": 91.32061325714247,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 4)",
+                "1": "(11, 5)",
+                "2": "(10, 5)",
+                "3": "(10, 4)",
+                "4": "(11, 3)",
+                "5": "(12, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 5)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.9927107638979695,
+                "wind_speed": 10.225549282710436,
+                "visibility": 90.9389524028603,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 5)",
+                "1": "(11, 6)",
+                "2": "(10, 6)",
+                "3": "(10, 5)",
+                "4": "(11, 4)",
+                "5": "(12, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 6)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.799701592185922,
+                "wind_speed": 6.789998050414799,
+                "visibility": 92.57139611323431,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 6)",
+                "1": "(11, 7)",
+                "2": "(10, 7)",
+                "3": "(10, 6)",
+                "4": "(11, 5)",
+                "5": "(12, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 7)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.761991694809806,
+                "wind_speed": 4.571515836095119,
+                "visibility": 87.90851175769676,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 7)",
+                "1": "(11, 8)",
+                "2": "(10, 8)",
+                "3": "(10, 7)",
+                "4": "(11, 6)",
+                "5": "(12, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 8)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.385980363991706,
+                "wind_speed": 15.532365004335437,
+                "visibility": 85.31635889971363,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 8)",
+                "1": "(11, 9)",
+                "2": "(10, 9)",
+                "3": "(10, 8)",
+                "4": "(11, 7)",
+                "5": "(12, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 9)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.102776538875575,
+                "wind_speed": 15.019519173491435,
+                "visibility": 90.82085471164574,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 9)",
+                "1": "(11, 10)",
+                "2": "(10, 10)",
+                "3": "(10, 9)",
+                "4": "(11, 8)",
+                "5": "(12, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(11, 10)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.3410257018047265,
+                "wind_speed": 13.784902829918183,
+                "visibility": 92.65773118940555,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 10)",
+                "1": "(11, 11)",
+                "2": "(10, 11)",
+                "3": "(10, 10)",
+                "4": "(11, 9)",
+                "5": "(12, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.766666783338316,
+                "wind_speed": 7.7677845156968965,
+                "visibility": 90.83205153873986,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 11)",
+                "1": "(11, 12)",
+                "2": "(10, 12)",
+                "3": "(10, 11)",
+                "4": "(11, 10)",
+                "5": "(12, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 12)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.501512564749253,
+                "wind_speed": 10.736820957699889,
+                "visibility": 89.89138856574465,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 12)",
+                "1": "(11, 13)",
+                "2": "(10, 13)",
+                "3": "(10, 12)",
+                "4": "(11, 11)",
+                "5": "(12, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(11, 13)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.941766759505686,
+                "wind_speed": 17.626870116355377,
+                "visibility": 92.76210046957765,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(12, 13)",
+                "1": null,
+                "2": null,
+                "3": "(10, 13)",
+                "4": "(11, 12)",
+                "5": "(12, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(12, 0)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.5497989916576795,
+                "wind_speed": 11.124545538649901,
+                "visibility": 83.66088586181172,
+                "precipitation": 3.400947540714551,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 0)",
+                "1": "(12, 1)",
+                "2": "(11, 1)",
+                "3": "(11, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.609331153693532,
+                "wind_speed": 6.608237135039415,
+                "visibility": 89.85684593762517,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 1)",
+                "1": "(12, 2)",
+                "2": "(11, 2)",
+                "3": "(11, 1)",
+                "4": "(12, 0)",
+                "5": "(13, 0)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.342122628888792,
+                "wind_speed": 14.243078327195985,
+                "visibility": 89.0311447192201,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 2)",
+                "1": "(12, 3)",
+                "2": "(11, 3)",
+                "3": "(11, 2)",
+                "4": "(12, 1)",
+                "5": "(13, 1)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 3)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.18894946595921,
+                "wind_speed": 9.171508416336312,
+                "visibility": 92.1237272338563,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 3)",
+                "1": "(12, 4)",
+                "2": "(11, 4)",
+                "3": "(11, 3)",
+                "4": "(12, 2)",
+                "5": "(13, 2)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 4)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 4.7232893764023505,
+                "wind_speed": 16.133844774574943,
+                "visibility": 90.3750435554724,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 4)",
+                "1": "(12, 5)",
+                "2": "(11, 5)",
+                "3": "(11, 4)",
+                "4": "(12, 3)",
+                "5": "(13, 3)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 5)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 9.683253851328946,
+                "wind_speed": 7.873828074304026,
+                "visibility": 92.23207751200933,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 5)",
+                "1": "(12, 6)",
+                "2": "(11, 6)",
+                "3": "(11, 5)",
+                "4": "(12, 4)",
+                "5": "(13, 4)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 6)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.55360093995065,
+                "wind_speed": 12.699305215338484,
+                "visibility": 91.93812907684084,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 6)",
+                "1": "(12, 7)",
+                "2": "(11, 7)",
+                "3": "(11, 6)",
+                "4": "(12, 5)",
+                "5": "(13, 5)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 7)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 11.29125452940361,
+                "wind_speed": 13.72125956665128,
+                "visibility": 88.646152395193,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 7)",
+                "1": "(12, 8)",
+                "2": "(11, 8)",
+                "3": "(11, 7)",
+                "4": "(12, 6)",
+                "5": "(13, 6)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 8)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.105467303327183,
+                "wind_speed": 15.565004284772824,
+                "visibility": 94.31445414409511,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 8)",
+                "1": "(12, 9)",
+                "2": "(11, 9)",
+                "3": "(11, 8)",
+                "4": "(12, 7)",
+                "5": "(13, 7)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 12.324139219662936,
+                "wind_speed": 10.853097539963496,
+                "visibility": 93.90649088959664,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 9)",
+                "1": "(12, 10)",
+                "2": "(11, 10)",
+                "3": "(11, 9)",
+                "4": "(12, 8)",
+                "5": "(13, 8)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.861355729093786,
+                "wind_speed": 9.47598138569995,
+                "visibility": 91.50680558255219,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 10)",
+                "1": "(12, 11)",
+                "2": "(11, 11)",
+                "3": "(11, 10)",
+                "4": "(12, 9)",
+                "5": "(13, 9)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 11)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 8.44951168658537,
+                "wind_speed": 5.7817926675963935,
+                "visibility": 88.58874407969813,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 11)",
+                "1": "(12, 12)",
+                "2": "(11, 12)",
+                "3": "(11, 11)",
+                "4": "(12, 10)",
+                "5": "(13, 10)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 12)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.510045775311102,
+                "wind_speed": 13.225873901452626,
+                "visibility": 85.88951704954779,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 12)",
+                "1": "(12, 13)",
+                "2": "(11, 13)",
+                "3": "(11, 12)",
+                "4": "(12, 11)",
+                "5": "(13, 11)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(12, 13)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 6.793702437957309,
+                "wind_speed": 4.840194957905148,
+                "visibility": 92.54771562852085,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": "(13, 13)",
+                "1": null,
+                "2": null,
+                "3": "(11, 13)",
+                "4": "(12, 12)",
+                "5": "(13, 12)"
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 0)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.084534342909996,
+                "wind_speed": 16.713769527213906,
+                "visibility": 90.87178832260632,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 1)",
+                "2": "(12, 1)",
+                "3": "(12, 0)",
+                "4": null,
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 1)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.099140997185641,
+                "wind_speed": 10.88065770849345,
+                "visibility": 91.21477184154637,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 2)",
+                "2": "(12, 2)",
+                "3": "(12, 1)",
+                "4": "(13, 0)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 2)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.660785600711408,
+                "wind_speed": 12.38912349124277,
+                "visibility": 93.17270117993512,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 3)",
+                "2": "(12, 3)",
+                "3": "(12, 2)",
+                "4": "(13, 1)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 3)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 6.690249945116743,
+                "wind_speed": 16.580858887682965,
+                "visibility": 87.10606014234031,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 4)",
+                "2": "(12, 4)",
+                "3": "(12, 3)",
+                "4": "(13, 2)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 4)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.136964169461173,
+                "wind_speed": 15.050031687585681,
+                "visibility": 92.3254596050322,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 5)",
+                "2": "(12, 5)",
+                "3": "(12, 4)",
+                "4": "(13, 3)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 5)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.462655762846417,
+                "wind_speed": 15.564494362663538,
+                "visibility": 90.0065973395544,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 6)",
+                "2": "(12, 6)",
+                "3": "(12, 5)",
+                "4": "(13, 4)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 6)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 9.357016111827521,
+                "wind_speed": 13.752708482861653,
+                "visibility": 89.48861047332593,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 7)",
+                "2": "(12, 7)",
+                "3": "(12, 6)",
+                "4": "(13, 5)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 7)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.10684493283715,
+                "wind_speed": 15.404976454277797,
+                "visibility": 90.25186798969555,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 8)",
+                "2": "(12, 8)",
+                "3": "(12, 7)",
+                "4": "(13, 6)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 8)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 8.84422549198958,
+                "wind_speed": 12.92742488767854,
+                "visibility": 90.84291330244866,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 9)",
+                "2": "(12, 9)",
+                "3": "(12, 8)",
+                "4": "(13, 7)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 9)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 11.436169737161915,
+                "wind_speed": 11.50750078873056,
+                "visibility": 89.9490246686994,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 10)",
+                "2": "(12, 10)",
+                "3": "(12, 9)",
+                "4": "(13, 8)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": true
+            }
+        },
+        {
+            "id": "(13, 10)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 10.505489643208628,
+                "wind_speed": 11.311670277042614,
+                "visibility": 91.81781912419378,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 11)",
+                "2": "(12, 11)",
+                "3": "(12, 10)",
+                "4": "(13, 9)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 11)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.055565767777164,
+                "wind_speed": 16.156341451271427,
+                "visibility": 87.35460728330257,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 12)",
+                "2": "(12, 12)",
+                "3": "(12, 11)",
+                "4": "(13, 10)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 12)",
+            "metadata": {
+                "terrain": "Rocky",
+                "time": 23,
+                "temperature": 7.89972326400635,
+                "wind_speed": 14.874877869227484,
+                "visibility": 92.91096910899103,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": "(13, 13)",
+                "2": "(12, 13)",
+                "3": "(12, 12)",
+                "4": "(13, 11)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        },
+        {
+            "id": "(13, 13)",
+            "metadata": {
+                "terrain": "Grassy",
+                "time": 23,
+                "temperature": 7.822836638863958,
+                "wind_speed": 11.833616555915043,
+                "visibility": 92.13010138848404,
+                "precipitation": 0.0,
+                "weight": 50
+            },
+            "neighbors": {
+                "0": null,
+                "1": null,
+                "2": null,
+                "3": "(12, 13)",
+                "4": "(13, 12)",
+                "5": null
+            },
+            "inaccessible": {
+                "mine_presence": false
+            }
+        }
+    ],
+    "edges": [
+        {
+            "from": "(0, 0)",
+            "to": "(1, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 0)",
+            "to": "(0, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 1)",
+            "to": "(1, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 1)",
+            "to": "(0, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 1)",
+            "to": "(1, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 2)",
+            "to": "(1, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 2)",
+            "to": "(0, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 2)",
+            "to": "(1, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 3)",
+            "to": "(1, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 3)",
+            "to": "(0, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 3)",
+            "to": "(1, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 4)",
+            "to": "(1, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 4)",
+            "to": "(0, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 4)",
+            "to": "(1, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 5)",
+            "to": "(1, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 5)",
+            "to": "(0, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 5)",
+            "to": "(1, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 6)",
+            "to": "(1, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 6)",
+            "to": "(0, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 6)",
+            "to": "(1, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 7)",
+            "to": "(1, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 7)",
+            "to": "(0, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 7)",
+            "to": "(1, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 8)",
+            "to": "(1, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 8)",
+            "to": "(0, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 8)",
+            "to": "(1, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 9)",
+            "to": "(1, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 9)",
+            "to": "(0, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 9)",
+            "to": "(1, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 10)",
+            "to": "(1, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 10)",
+            "to": "(0, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 10)",
+            "to": "(1, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 11)",
+            "to": "(1, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 11)",
+            "to": "(0, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 11)",
+            "to": "(1, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 12)",
+            "to": "(1, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 12)",
+            "to": "(0, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 12)",
+            "to": "(1, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 13)",
+            "to": "(1, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(0, 13)",
+            "to": "(1, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 0)",
+            "to": "(2, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 0)",
+            "to": "(1, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 1)",
+            "to": "(2, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 1)",
+            "to": "(1, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 1)",
+            "to": "(2, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 2)",
+            "to": "(2, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 2)",
+            "to": "(1, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 2)",
+            "to": "(2, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 3)",
+            "to": "(2, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 3)",
+            "to": "(1, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 3)",
+            "to": "(2, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 4)",
+            "to": "(2, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 4)",
+            "to": "(1, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 4)",
+            "to": "(2, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 5)",
+            "to": "(2, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 5)",
+            "to": "(1, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 5)",
+            "to": "(2, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 6)",
+            "to": "(2, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 6)",
+            "to": "(1, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 6)",
+            "to": "(2, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 7)",
+            "to": "(2, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 7)",
+            "to": "(1, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 7)",
+            "to": "(2, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 8)",
+            "to": "(2, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 8)",
+            "to": "(1, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 8)",
+            "to": "(2, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 9)",
+            "to": "(2, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 9)",
+            "to": "(1, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 9)",
+            "to": "(2, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 10)",
+            "to": "(2, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 10)",
+            "to": "(1, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 10)",
+            "to": "(2, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 11)",
+            "to": "(2, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 11)",
+            "to": "(1, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 11)",
+            "to": "(2, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 12)",
+            "to": "(2, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 12)",
+            "to": "(1, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 12)",
+            "to": "(2, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 13)",
+            "to": "(2, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(1, 13)",
+            "to": "(2, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 0)",
+            "to": "(3, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 0)",
+            "to": "(2, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 1)",
+            "to": "(3, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 1)",
+            "to": "(2, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 1)",
+            "to": "(3, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 2)",
+            "to": "(3, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 2)",
+            "to": "(2, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 2)",
+            "to": "(3, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 3)",
+            "to": "(3, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 3)",
+            "to": "(2, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 3)",
+            "to": "(3, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 4)",
+            "to": "(3, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 4)",
+            "to": "(2, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 4)",
+            "to": "(3, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 5)",
+            "to": "(3, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 5)",
+            "to": "(2, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 5)",
+            "to": "(3, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 6)",
+            "to": "(3, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 6)",
+            "to": "(2, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 6)",
+            "to": "(3, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 7)",
+            "to": "(3, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 7)",
+            "to": "(2, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 7)",
+            "to": "(3, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 8)",
+            "to": "(3, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 8)",
+            "to": "(2, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 8)",
+            "to": "(3, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 9)",
+            "to": "(3, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 9)",
+            "to": "(2, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 9)",
+            "to": "(3, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 10)",
+            "to": "(3, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 10)",
+            "to": "(2, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 10)",
+            "to": "(3, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 11)",
+            "to": "(3, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 11)",
+            "to": "(2, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 11)",
+            "to": "(3, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 12)",
+            "to": "(3, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 12)",
+            "to": "(2, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 12)",
+            "to": "(3, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 13)",
+            "to": "(3, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(2, 13)",
+            "to": "(3, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 0)",
+            "to": "(4, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 0)",
+            "to": "(3, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 1)",
+            "to": "(4, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 1)",
+            "to": "(3, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 1)",
+            "to": "(4, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 2)",
+            "to": "(4, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 2)",
+            "to": "(3, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 2)",
+            "to": "(4, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 3)",
+            "to": "(4, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 3)",
+            "to": "(3, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 3)",
+            "to": "(4, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 4)",
+            "to": "(4, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 4)",
+            "to": "(3, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 4)",
+            "to": "(4, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 5)",
+            "to": "(4, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 5)",
+            "to": "(3, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 5)",
+            "to": "(4, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 6)",
+            "to": "(4, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 6)",
+            "to": "(3, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 6)",
+            "to": "(4, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 7)",
+            "to": "(4, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 7)",
+            "to": "(3, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 7)",
+            "to": "(4, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 8)",
+            "to": "(4, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 8)",
+            "to": "(3, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 8)",
+            "to": "(4, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 9)",
+            "to": "(4, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 9)",
+            "to": "(3, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 9)",
+            "to": "(4, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 10)",
+            "to": "(4, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 10)",
+            "to": "(3, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 10)",
+            "to": "(4, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 11)",
+            "to": "(4, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 11)",
+            "to": "(3, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 11)",
+            "to": "(4, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 12)",
+            "to": "(4, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 12)",
+            "to": "(3, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 12)",
+            "to": "(4, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 13)",
+            "to": "(4, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(3, 13)",
+            "to": "(4, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 0)",
+            "to": "(5, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 0)",
+            "to": "(4, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 1)",
+            "to": "(5, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 1)",
+            "to": "(4, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 1)",
+            "to": "(5, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 2)",
+            "to": "(5, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 2)",
+            "to": "(4, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 2)",
+            "to": "(5, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 3)",
+            "to": "(5, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 3)",
+            "to": "(4, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 3)",
+            "to": "(5, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 4)",
+            "to": "(5, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 4)",
+            "to": "(4, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 4)",
+            "to": "(5, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 5)",
+            "to": "(5, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 5)",
+            "to": "(4, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 5)",
+            "to": "(5, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 6)",
+            "to": "(5, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 6)",
+            "to": "(4, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 6)",
+            "to": "(5, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 7)",
+            "to": "(5, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 7)",
+            "to": "(4, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 7)",
+            "to": "(5, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 8)",
+            "to": "(5, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 8)",
+            "to": "(4, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 8)",
+            "to": "(5, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 9)",
+            "to": "(5, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 9)",
+            "to": "(4, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 9)",
+            "to": "(5, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 10)",
+            "to": "(5, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 10)",
+            "to": "(4, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 10)",
+            "to": "(5, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 11)",
+            "to": "(5, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 11)",
+            "to": "(4, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 11)",
+            "to": "(5, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 12)",
+            "to": "(5, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 12)",
+            "to": "(4, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 12)",
+            "to": "(5, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 13)",
+            "to": "(5, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(4, 13)",
+            "to": "(5, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 0)",
+            "to": "(6, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 0)",
+            "to": "(5, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 1)",
+            "to": "(6, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 1)",
+            "to": "(5, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 1)",
+            "to": "(6, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 2)",
+            "to": "(6, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 2)",
+            "to": "(5, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 2)",
+            "to": "(6, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 3)",
+            "to": "(6, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 3)",
+            "to": "(5, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 3)",
+            "to": "(6, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 4)",
+            "to": "(6, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 4)",
+            "to": "(5, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 4)",
+            "to": "(6, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 5)",
+            "to": "(6, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 5)",
+            "to": "(5, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 5)",
+            "to": "(6, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 6)",
+            "to": "(6, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 6)",
+            "to": "(5, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 6)",
+            "to": "(6, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 7)",
+            "to": "(6, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 7)",
+            "to": "(5, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 7)",
+            "to": "(6, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 8)",
+            "to": "(6, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 8)",
+            "to": "(5, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 8)",
+            "to": "(6, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 9)",
+            "to": "(6, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 9)",
+            "to": "(5, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 9)",
+            "to": "(6, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 10)",
+            "to": "(6, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 10)",
+            "to": "(5, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 10)",
+            "to": "(6, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 11)",
+            "to": "(6, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 11)",
+            "to": "(5, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 11)",
+            "to": "(6, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 12)",
+            "to": "(6, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 12)",
+            "to": "(5, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 12)",
+            "to": "(6, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 13)",
+            "to": "(6, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(5, 13)",
+            "to": "(6, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 0)",
+            "to": "(7, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 0)",
+            "to": "(6, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 1)",
+            "to": "(7, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 1)",
+            "to": "(6, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 1)",
+            "to": "(7, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 2)",
+            "to": "(7, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 2)",
+            "to": "(6, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 2)",
+            "to": "(7, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 3)",
+            "to": "(7, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 3)",
+            "to": "(6, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 3)",
+            "to": "(7, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 4)",
+            "to": "(7, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 4)",
+            "to": "(6, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 4)",
+            "to": "(7, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 5)",
+            "to": "(7, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 5)",
+            "to": "(6, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 5)",
+            "to": "(7, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 6)",
+            "to": "(7, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 6)",
+            "to": "(6, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 6)",
+            "to": "(7, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 7)",
+            "to": "(7, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 7)",
+            "to": "(6, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 7)",
+            "to": "(7, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 8)",
+            "to": "(7, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 8)",
+            "to": "(6, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 8)",
+            "to": "(7, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 9)",
+            "to": "(7, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 9)",
+            "to": "(6, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 9)",
+            "to": "(7, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 10)",
+            "to": "(7, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 10)",
+            "to": "(6, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 10)",
+            "to": "(7, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 11)",
+            "to": "(7, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 11)",
+            "to": "(6, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 11)",
+            "to": "(7, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 12)",
+            "to": "(7, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 12)",
+            "to": "(6, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 12)",
+            "to": "(7, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 13)",
+            "to": "(7, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(6, 13)",
+            "to": "(7, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 0)",
+            "to": "(8, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 0)",
+            "to": "(7, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 1)",
+            "to": "(8, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 1)",
+            "to": "(7, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 1)",
+            "to": "(8, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 2)",
+            "to": "(8, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 2)",
+            "to": "(7, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 2)",
+            "to": "(8, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 3)",
+            "to": "(8, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 3)",
+            "to": "(7, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 3)",
+            "to": "(8, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 4)",
+            "to": "(8, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 4)",
+            "to": "(7, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 4)",
+            "to": "(8, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 5)",
+            "to": "(8, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 5)",
+            "to": "(7, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 5)",
+            "to": "(8, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 6)",
+            "to": "(8, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 6)",
+            "to": "(7, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 6)",
+            "to": "(8, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 7)",
+            "to": "(8, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 7)",
+            "to": "(7, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 7)",
+            "to": "(8, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 8)",
+            "to": "(8, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 8)",
+            "to": "(7, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 8)",
+            "to": "(8, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 9)",
+            "to": "(8, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 9)",
+            "to": "(7, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 9)",
+            "to": "(8, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 10)",
+            "to": "(8, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 10)",
+            "to": "(7, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 10)",
+            "to": "(8, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 11)",
+            "to": "(8, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 11)",
+            "to": "(7, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 11)",
+            "to": "(8, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 12)",
+            "to": "(8, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 12)",
+            "to": "(7, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 12)",
+            "to": "(8, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 13)",
+            "to": "(8, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(7, 13)",
+            "to": "(8, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 0)",
+            "to": "(9, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 0)",
+            "to": "(8, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 1)",
+            "to": "(9, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 1)",
+            "to": "(8, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 1)",
+            "to": "(9, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 2)",
+            "to": "(9, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 2)",
+            "to": "(8, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 2)",
+            "to": "(9, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 3)",
+            "to": "(9, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 3)",
+            "to": "(8, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 3)",
+            "to": "(9, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 4)",
+            "to": "(9, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 4)",
+            "to": "(8, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 4)",
+            "to": "(9, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 5)",
+            "to": "(9, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 5)",
+            "to": "(8, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 5)",
+            "to": "(9, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 6)",
+            "to": "(9, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 6)",
+            "to": "(8, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 6)",
+            "to": "(9, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 7)",
+            "to": "(9, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 7)",
+            "to": "(8, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 7)",
+            "to": "(9, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 8)",
+            "to": "(9, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 8)",
+            "to": "(8, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 8)",
+            "to": "(9, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 9)",
+            "to": "(9, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 9)",
+            "to": "(8, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 9)",
+            "to": "(9, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 10)",
+            "to": "(9, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 10)",
+            "to": "(8, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 10)",
+            "to": "(9, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 11)",
+            "to": "(9, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 11)",
+            "to": "(8, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 11)",
+            "to": "(9, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 12)",
+            "to": "(9, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 12)",
+            "to": "(8, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 12)",
+            "to": "(9, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 13)",
+            "to": "(9, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(8, 13)",
+            "to": "(9, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 0)",
+            "to": "(10, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 0)",
+            "to": "(9, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 1)",
+            "to": "(10, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 1)",
+            "to": "(9, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 1)",
+            "to": "(10, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 2)",
+            "to": "(10, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 2)",
+            "to": "(9, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 2)",
+            "to": "(10, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 3)",
+            "to": "(10, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 3)",
+            "to": "(9, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 3)",
+            "to": "(10, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 4)",
+            "to": "(10, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 4)",
+            "to": "(9, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 4)",
+            "to": "(10, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 5)",
+            "to": "(10, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 5)",
+            "to": "(9, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 5)",
+            "to": "(10, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 6)",
+            "to": "(10, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 6)",
+            "to": "(9, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 6)",
+            "to": "(10, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 7)",
+            "to": "(10, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 7)",
+            "to": "(9, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 7)",
+            "to": "(10, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 8)",
+            "to": "(10, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 8)",
+            "to": "(9, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 8)",
+            "to": "(10, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 9)",
+            "to": "(10, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 9)",
+            "to": "(9, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 9)",
+            "to": "(10, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 10)",
+            "to": "(10, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 10)",
+            "to": "(9, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 10)",
+            "to": "(10, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 11)",
+            "to": "(10, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 11)",
+            "to": "(9, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 11)",
+            "to": "(10, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 12)",
+            "to": "(10, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 12)",
+            "to": "(9, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 12)",
+            "to": "(10, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 13)",
+            "to": "(10, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(9, 13)",
+            "to": "(10, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 0)",
+            "to": "(11, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 0)",
+            "to": "(10, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 1)",
+            "to": "(11, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 1)",
+            "to": "(10, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 1)",
+            "to": "(11, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 2)",
+            "to": "(11, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 2)",
+            "to": "(10, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 2)",
+            "to": "(11, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 3)",
+            "to": "(11, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 3)",
+            "to": "(10, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 3)",
+            "to": "(11, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 4)",
+            "to": "(11, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 4)",
+            "to": "(10, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 4)",
+            "to": "(11, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 5)",
+            "to": "(11, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 5)",
+            "to": "(10, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 5)",
+            "to": "(11, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 6)",
+            "to": "(11, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 6)",
+            "to": "(10, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 6)",
+            "to": "(11, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 7)",
+            "to": "(11, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 7)",
+            "to": "(10, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 7)",
+            "to": "(11, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 8)",
+            "to": "(11, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 8)",
+            "to": "(10, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 8)",
+            "to": "(11, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 9)",
+            "to": "(11, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 9)",
+            "to": "(10, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 9)",
+            "to": "(11, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 10)",
+            "to": "(11, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 10)",
+            "to": "(10, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 10)",
+            "to": "(11, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 11)",
+            "to": "(11, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 11)",
+            "to": "(10, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 11)",
+            "to": "(11, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 12)",
+            "to": "(11, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 12)",
+            "to": "(10, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 12)",
+            "to": "(11, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 13)",
+            "to": "(11, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(10, 13)",
+            "to": "(11, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 0)",
+            "to": "(12, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 0)",
+            "to": "(11, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 1)",
+            "to": "(12, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 1)",
+            "to": "(11, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 1)",
+            "to": "(12, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 2)",
+            "to": "(12, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 2)",
+            "to": "(11, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 2)",
+            "to": "(12, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 3)",
+            "to": "(12, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 3)",
+            "to": "(11, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 3)",
+            "to": "(12, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 4)",
+            "to": "(12, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 4)",
+            "to": "(11, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 4)",
+            "to": "(12, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 5)",
+            "to": "(12, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 5)",
+            "to": "(11, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 5)",
+            "to": "(12, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 6)",
+            "to": "(12, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 6)",
+            "to": "(11, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 6)",
+            "to": "(12, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 7)",
+            "to": "(12, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 7)",
+            "to": "(11, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 7)",
+            "to": "(12, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 8)",
+            "to": "(12, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 8)",
+            "to": "(11, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 8)",
+            "to": "(12, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 9)",
+            "to": "(12, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 9)",
+            "to": "(11, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 9)",
+            "to": "(12, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 10)",
+            "to": "(12, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 10)",
+            "to": "(11, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 10)",
+            "to": "(12, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 11)",
+            "to": "(12, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 11)",
+            "to": "(11, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 11)",
+            "to": "(12, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 12)",
+            "to": "(12, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 12)",
+            "to": "(11, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 12)",
+            "to": "(12, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 13)",
+            "to": "(12, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(11, 13)",
+            "to": "(12, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 0)",
+            "to": "(13, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 0)",
+            "to": "(12, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 1)",
+            "to": "(13, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 1)",
+            "to": "(12, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 1)",
+            "to": "(13, 0)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 2)",
+            "to": "(13, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 2)",
+            "to": "(12, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 2)",
+            "to": "(13, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 3)",
+            "to": "(13, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 3)",
+            "to": "(12, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 3)",
+            "to": "(13, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 4)",
+            "to": "(13, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 4)",
+            "to": "(12, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 4)",
+            "to": "(13, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 5)",
+            "to": "(13, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 5)",
+            "to": "(12, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 5)",
+            "to": "(13, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 6)",
+            "to": "(13, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 6)",
+            "to": "(12, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 6)",
+            "to": "(13, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 7)",
+            "to": "(13, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 7)",
+            "to": "(12, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 7)",
+            "to": "(13, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 8)",
+            "to": "(13, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 8)",
+            "to": "(12, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 8)",
+            "to": "(13, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 9)",
+            "to": "(13, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 9)",
+            "to": "(12, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 9)",
+            "to": "(13, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 10)",
+            "to": "(13, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 10)",
+            "to": "(12, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 10)",
+            "to": "(13, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 11)",
+            "to": "(13, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 11)",
+            "to": "(12, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 11)",
+            "to": "(13, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 12)",
+            "to": "(13, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 12)",
+            "to": "(12, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 12)",
+            "to": "(13, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 13)",
+            "to": "(13, 13)",
+            "weight": 50
+        },
+        {
+            "from": "(12, 13)",
+            "to": "(13, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 0)",
+            "to": "(13, 1)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 1)",
+            "to": "(13, 2)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 2)",
+            "to": "(13, 3)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 3)",
+            "to": "(13, 4)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 4)",
+            "to": "(13, 5)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 5)",
+            "to": "(13, 6)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 6)",
+            "to": "(13, 7)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 7)",
+            "to": "(13, 8)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 8)",
+            "to": "(13, 9)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 9)",
+            "to": "(13, 10)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 10)",
+            "to": "(13, 11)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 11)",
+            "to": "(13, 12)",
+            "weight": 50
+        },
+        {
+            "from": "(13, 12)",
+            "to": "(13, 13)",
+            "weight": 50
+        }
+    ]
+}
